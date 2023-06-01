@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-extensions",
+  "name": "@phwebi/rollup-plugin-extensions",
   "version": "0.1.0",
   "description": "Allow rollup to resolve local files with any extension",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/zelzen/rollup-plugin-extensions"
+    "url": "https://github.com/phwebi/rollup-plugin-extensions"
   },
   "files": [
     "lib"
@@ -28,11 +28,11 @@
     "prepublishOnly": "yarn build && yarn build:types"
   },
   "devDependencies": {
-    "rollup": "1.27.2",
+    "rollup": "^3.23.0",
     "rollup-typescript": "1.2.1",
-    "typescript": "3.7.2"
+    "typescript": "^5.0.4"
   },
   "peerDependencies": {
-    "rollup": "^1.4.1"
+    "rollup": "^3.23.0"
   }
 }

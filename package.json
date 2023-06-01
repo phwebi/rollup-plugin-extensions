@@ -1,5 +1,5 @@
 {
-  "name": "@phwebi/rollup-plugin-extensions",
+  "name": "@levco/rollup-plugin-extensions",
   "version": "1.0.0",
   "description": "Allow rollup to resolve local files with any extension",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phwebi/rollup-plugin-extensions"
+    "url": "https://github.com/levco/rollup-plugin-extensions"
   },
   "files": [
     "lib"

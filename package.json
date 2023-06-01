@@ -6,6 +6,9 @@
   "module": "lib/index.esm.js",
   "types": "lib/types/index.d.ts",
   "sideEffects": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/phwebi/rollup-plugin-extensions"
@@ -25,9 +28,10 @@
   "scripts": {
     "build": "rollup -c",
     "build:types": "tsc -p . --emitDeclarationOnly",
-    "prepublishOnly": "yarn build && yarn build:types"
+    "prepublishOnly": "npm run build && npm run build:types"
   },
   "devDependencies": {
+    "@types/node": "^20.2.5",
     "rollup": "^3.23.0",
     "rollup-typescript": "1.2.1",
     "typescript": "^5.0.4"

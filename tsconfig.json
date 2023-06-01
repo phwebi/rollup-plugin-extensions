@@ -7,12 +7,10 @@
     "declaration": true,
     "strict": true,
     "declarationDir": "lib/types",
-    "lib": [
-      "esnext",
-      "dom"
-    ],
+    "lib": ["esnext", "dom"],
     "outDir": "lib/",
     "baseUrl": "./src",
+    "types": ["node"]
   },
   "exclude": [
     "node_modules",
